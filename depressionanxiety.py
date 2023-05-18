@@ -104,7 +104,7 @@ y_test_encoded.dtype
 print(y_test_encoded)
 
 # created a logistic regression model
-model = LogisticRegression()
+model = LogisticRegression(max_iter=1000)
 model.fit(X_train, y_train_encoded)
 
 # evaluate the model on the test set
