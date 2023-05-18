@@ -76,7 +76,7 @@ X[:, [1, 2]] = scaler.fit_transform(X[:, [1, 2]])
 # Splitted data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=18)
 
-data.head()
+
 data.info()
 data.shape
 data.head()
@@ -120,7 +120,7 @@ print("Confusion matrix:\n", cm)
 
 
 # create a heatmap of the confusion matrix
-sns.heatmap(cm, annot=True, cmap="Blues")
+sns.heatmap(cm, annot=True, fmt='d', cmap="Blues")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.show()
