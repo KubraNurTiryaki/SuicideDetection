@@ -1,0 +1,1 @@
+My first project in the field of artificial intelligence. I developed a model that predicts whether a person is prone to suicide by looking at values ​​such as age, bmi, anxiety severity, gender, depression diagnosis, depression treatment, anxiousness, anxiety diagnosis, anxiety treatment, epworth score, phq score.
